@@ -1,0 +1,54 @@
+*{
+    background-color: black;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.color-hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    top: 50px;
+}
+
+.color{
+    width: 70px;
+    height: 20px;
+    margin: 2px;
+}
+
+.red{
+    background-color: red;
+}
+.cyan{
+    background-color: cyan;
+}
+.violet{
+    background-color: violet;
+}
+.orange{
+    background-color: orange;
+}
+.pink{
+    background-color: pink;
+}
+
+.red, .cyan, .violet, .orange, .pink:hover{
+    cursor:pointer;
+}
+
+
+.center{
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    top: 120px;
+}
+
